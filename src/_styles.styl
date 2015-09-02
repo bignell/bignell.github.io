@@ -1,0 +1,100 @@
+* {box-sizing: border-box; margin: 0; padding: 0}
+
+body
+  background: #aaa
+  font: 17px/1.4 'Alegreya Sans', sans-serif
+  color: #000
+  -webkit-font-smoothing: antialiased
+
+#photo
+  height: 40vh
+  background: #aaa
+
+  img
+    margin: 0 auto
+    display: block
+    max-width: 100%
+    max-height: 100%
+
+main
+  min-height: 60vh
+  padding: 25px 50px 10px 25px
+  box-shadow: 0 0 10px #888
+  position: relative // necessary for box-shadow to overlay img, for some reason
+  background: #fff
+
+#mark
+  float: right
+  width: 60px
+  height: auto
+  stroke-dasharray: 0 1118 // path.getTotalLength();
+  animation: draw 4s linear alternate-reverse infinite
+
+@keyframes draw
+  to
+    stroke-dasharray: 1118 0
+
+h1
+  font-weight: normal
+  font-size: 23px
+
+p
+  margin-bottom: 25px
+
+a
+  text-decoration: underline
+  color: #000
+  font-weight: bold
+
+a:hover
+  opacity: 0.5
+  transition: opacity ease-out .2s
+
+#email a, #pgp a
+  font-weight: normal
+
+#email a
+  color: #777
+  text-decoration: none
+
+#pgp
+  font-style: italic
+  color:#777
+
+  a
+    color: #555
+
+@media (min-aspect-ratio: 11/10)
+  body
+    // OSX Rubber band/elastic scrolling isn't standardized:
+    // - Chrome rubber-bands everything, only uses background color
+    // - Safari ignores position: fixed elements, but will employ background gradients
+    background: #d1ffa2 linear-gradient(to right, #aaa 64%, #fff 64%)
+
+  #photo
+    position: fixed
+    bottom: 0
+    left: 0
+    width: 64%
+    height: 100%
+
+    img
+      position: absolute
+      bottom: 0
+      left: 0
+      padding: 0 20% 0 0
+
+  main
+    position: absolute
+    top: 0
+    right: 0
+    width: 36%
+    min-height: 100%
+    padding: 3% 6% 3% 3%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+  #mark
+    float: none
+    margin: 0 0 20px 0
