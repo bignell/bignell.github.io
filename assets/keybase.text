@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/bignell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bignell.me
+  * I am bignell (https://keybase.io/bignell) on keybase.
+  * I have a public key with fingerprint 23F8 1EAC 95DA 8E2F 7088  7DE2 FD97 E6F7 F1BA 40AE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "010112f8701d64482bf0cae122c78ce3d49df4c3d570c70fed9146b7d4ef3ce55fda0a",
+            "fingerprint": "23f81eac95da8e2f70887de2fd97e6f7f1ba40ae",
+            "host": "keybase.io",
+            "key_id": "fd97e6f7f1ba40ae",
+            "kid": "010112f8701d64482bf0cae122c78ce3d49df4c3d570c70fed9146b7d4ef3ce55fda0a",
+            "uid": "20fefda4fb011a6e03d68d2c810d2000",
+            "username": "bignell"
+        },
+        "service": {
+            "hostname": "bignell.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1441444414,
+    "expire_in": 157680000,
+    "prev": "02b752b084315d12854d29e197d4e16e997c924ae1e731fb9a933315e65ce28f",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtkn9QFGUYx+/0REoQikojwnOJAIFjf93t7hWEIpKeNlb8GJnsZnffd4+VY/e4
+WzDkR2POIBrTIIFQOo0SgqQQMskPLZCJPIWATJOhGnMaMDV/xDCBoma7DDXjTH82
+88477zzv53me7/N93wr/+Tpf/YOaK9MTJxJb9APXOF3a9TZbIcLJoACxFiK8U4SS
+op0kNgciViQbFnCsB5pE2SjJAJq2eIxzTAySD90eUZZUCjXRJoxGimM0XsuGTgA9
+ij1bBNothmIYLtAUigELSdI4J6A8CzEc5ymahwQgGSCQPAHMFMpTqAABg5EWjgIk
+FAgems0CYFFWbSiIkgO6XW5Rk4jghEBjkOUZM2BpiAsUStMUUA+AoaBFoASMY0mU
+hWpiluxRHhkGmVVqn5X3H/z/rDtvthyuEmqEFDi1LGuBKAEsNMB5GkMBjqKoBnqg
+e854TnRI0OnUPFWD+SIPNV+1QR4FTDmaYJdbVmRedqrxLEVxeaxanlLg0sCtkLPP
+lbBzogRUE/99vGr19TAV5RVRK4qRpLq0LQaB77hEN7SLGmGmLLSqENUawXzNGpyj
+zDiH0iSBmQGG02YS4AzEGG14zAIZhuIZnFTNghSBCRzDMgShotBi5iFOC4g2Va4k
+I1a1k8I61JIedR5WyXNDpHjXvBCDTu+r81kwT/ueuscfC/znz45eDni4bbTq/PG7
+U5WltwbX7bAfg+GO9wL8fDJiL1cG5C70zMgnti7Jh3WfHop82W/+hcCEkA3bNw7G
+157z19Wl9LP0traj4dmx/RHtpryFpgfOjo5vutBDi6qjR6bLmryRvWzlZ005H409
+13LY1hL9cOeTL0QUdep3GNH1fVOZ3x5siOuoOl2yqWzAPZwRFid3Nxr1v11qOBWG
+2Up6CxdvSny9++cjE2EG31TzqvvB4sVc58aehCJv6+iz1w+8O6AYrfe/GDvjTj98
+56mm55/21Nf0jbv2rAStSxIc5Etuny/LOtMb1lr9WfcgYkvJTc+YkbfYVv6VFZE4
+IXjvFC47D2+WxJ0x7B431beXE14+M+pt47Fdm4mvV+mT9jdKBz/4Ke7jjAXxV3Oj
+uHuTv06n1YjWk5tfHbgW9FbFmmhDrd9k76mj66JOpkiLPnxtat+tN4tDyu/GLu+U
+pkonUO/ZvheXhnbvrS/qgGsy90Qk/HLg9B9dG/xN+6OfSSu/8kb38bHvhwfj2j8P
+AovHQl9Jqdg5HGlDgpqHtic3j/2+fkVr6rmuhKWlwY6r8foucjld17xspjnwq/d7
+dif/UNwzNHkvtcJ7gQgKGy25Ldze92MSjKoPDU7ywbBkn+9WjKQrR/w+iS8klPGo
+s3Rlo3+7oayt/5I0dOPmjZjuxIv9GWvD/6yuWm0YgU+U11J/Aw==
+=+HTp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bignell
+
+==================================================================
