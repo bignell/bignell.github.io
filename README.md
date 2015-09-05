@@ -74,5 +74,6 @@ Using a CDN has obvious performance benefits, but [CloudFlare][c] also provides 
 
 #### TODO:
 
+- add favicon.ico
 - When browser-support for `object-fit` and `object-position` improves, revisit markup for `#photo`
 - When Jade adds support for nested filters/js-transformers, remove the extra inline-source step
